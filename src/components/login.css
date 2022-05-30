@@ -7,30 +7,60 @@
     font-size: 1.2vw;
 }
 #forgot-password{
+    position: absolute;
     font-size: 0.5em;
-    margin-left: 28%;
+    font-weight: 800;
+    color: rgb(93, 94, 127);
+    left: 61%;
+}
+
+.form__label{
+    font-size: 0.8em;
+    margin-right: 50%;
     font-weight: 800;
     color: rgb(93, 94, 127);
 }
 
+#name{
+    background-image: url(../username.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+
+#name:active { 
+    background-image: none; 
+}
 .my-form{
     position: absolute;
+    text-align: center;
     border-radius: 25px;
     top: 12%;
-    left: 35%;
-    width: 30%;
+    left: 38%;
+    width: 25%;
     background-color:white ;
     font-size: 1.2vw;
 }
 
 #login-text{
-    font-size: 1.9em;
+    font-size: 1.5em;
     font-weight: 900;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     color: #062237;
 }
 
 #h3{
     font-weight:900 ;
+}
+
+.form__field{
+ border: 0;
+ border-bottom: 2px solid rgb(193, 193, 196);
+ width: 80%;
+ outline: 0;
+ font-size: 0.7rem;
+ padding: 7px 0;
+ background: transparent;
+ transition: border-color 0.2s;
 }
 

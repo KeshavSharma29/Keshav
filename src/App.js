@@ -7,18 +7,14 @@ import {
   MenuItem,
   Container,
 } from "react-bootstrap";
-import "./App.css";
 import NavbarComp from "./components/NavbarComp";
-import Login from "./components/Login";
+import Upload from "./components/Upload";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <NavbarComp />
-      </div>
       <div class="fill-window">
-        <Login />
+        <Upload />
       </div>
     </div>
   );
