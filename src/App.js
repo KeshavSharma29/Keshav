@@ -7,15 +7,16 @@ import {
   MenuItem,
   Container,
 } from "react-bootstrap";
+import ForgotPassword from "./components/ForgotPassword";
+import Login from "./components/Login";
+import Navbar2 from "./components/Navbar2";
 import NavbarComp from "./components/NavbarComp";
 import Upload from "./components/Upload";
 
 function App() {
   return (
-    <div className="App">
-      <div class="fill-window">
-        <Upload />
-      </div>
+    <div>
+      <ForgotPassword />
     </div>
   );
 }

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+
+#navbar-brand{
+    display: contents;
+    margin-left: 15%;
+  }
+  
+  #logo{
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 35%;
+  }
+
+  .my-navbar-buttons{
+
+    flex-grow: 0.5;
+    font-size: 1.1vw;
+    font-family: 'Poppins';
+    white-space: nowrap ;
+  }
+
+  #center{
+      text-align: center;
+  }
+
+  #active{
+    font-weight: 900;
+  } 
+
+  #profile-logo{
+    size: 30em;
+    margin-left: 10%;
+    margin-top: -10%;
+    text-align: center;
+  }
+
+  #profile-logo-div{
+      width: fit-content;
+  }
+
+  #dropdown{
+      text-align: left;
+      position: absolute;
+      right: 1.65em;
+  }
+
+  .dropdown-list{
+    position: relative;
+    left: -50%;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    #logo{
+      width: 150px;
+    }
+  }

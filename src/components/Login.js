@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Navbar } from "react-bootstrap";
 import "./login.css";
 import NavbarComp from "./NavbarComp";
 
@@ -9,7 +8,7 @@ class Login extends Component {
       <React.Fragment>
         <NavbarComp />
         <div className="background">
-          <div className="my-form">
+          <div className="my-form1">
             <p id="login-text">Login</p>
             <form>
               <div className="input-container">
@@ -18,6 +17,7 @@ class Login extends Component {
                 </label>
                 <br />
                 <input
+                  placeholder="Type you email"
                   type="input"
                   class="form__field"
                   name="name"
@@ -32,7 +32,7 @@ class Login extends Component {
                 </label>
                 <br />
                 <input
-                  placeholder="Type you email"
+                  placeholder="Type you password"
                   type="password"
                   class="form__field"
                   name="name"
