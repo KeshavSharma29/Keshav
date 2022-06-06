@@ -16,7 +16,7 @@ import Upload from "./components/Upload";
 function App() {
   return (
     <div>
-      <ForgotPassword />
+      <Login />
     </div>
   );
 }

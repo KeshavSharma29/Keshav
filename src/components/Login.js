@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./login.css";
 import NavbarComp from "./NavbarComp";
+import { BsGoogle } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 class Login extends Component {
   render() {
@@ -17,7 +20,7 @@ class Login extends Component {
                 </label>
                 <br />
                 <input
-                  placeholder="Type you email"
+                  placeholder="💌   Type you email"
                   type="input"
                   class="form__field"
                   name="name"
@@ -32,7 +35,7 @@ class Login extends Component {
                 </label>
                 <br />
                 <input
-                  placeholder="Type you password"
+                  placeholder="🔑   Type you password"
                   type="password"
                   class="form__field"
                   name="name"
@@ -43,22 +46,20 @@ class Login extends Component {
               <p id="forgot-password">Forgot Password?</p>
               <br />
               <div className="button-container">
-                <input type="submit" value="Login" />
+                <input type="submit" value="Login" id="login_button" />
               </div>
             </form>
             <br />
-            <br />
-            <p>Or Sign Up Using</p>
-            <span>
-              <a href="javascript:void(0)" class="google">
-                Google
-              </a>
-              <a href="javascript:void(0)" class="facebook">
-                F
-              </a>
-              <a href="javascript:void(0)" class="github">
-                G
-              </a>
+            <p class="continue">Or continue with</p>
+            <span style={{ display: "block" }}>
+              <BsGoogle alt="google" className="temp" size={30} />
+              <BsFacebook
+                alt="facebook"
+                className="temp"
+                size={30}
+                id="facebook-logo"
+              />
+              <FaGithub alt="github" className="temp" size={30} />
             </span>
           </div>
         </div>
